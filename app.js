@@ -36,11 +36,14 @@ function fAtualizarLAmigos() {
 
 
 function fSortearAmigo(){
-    amigoSorteado = lAmigos[Math.floor(Math.random() * lAmigos.length)];
-    console.log(amigoSorteado);
-    //Chamei a função fAtualizarLAmigos, mas não funcionou. Como fazer para exibir o resultado na tela com a função que criei?
-    //Coloquei fAtualizarLAmigos(amigoSorteado) e fAtualizarLAmigos(), mas não deu certo.
-    document.getElementById('listaAmigos').innerHTML = amigoSorteado;
+    if(lAmigos != '') {
+        amigoSorteado = lAmigos[Math.floor(Math.random() * lAmigos.length)];
+        console.log(amigoSorteado);
+        //Chamei a função fAtualizarLAmigos, mas não funcionou. Como fazer para exibir o resultado na tela com a função que criei?
+        //Coloquei fAtualizarLAmigos(amigoSorteado) e fAtualizarLAmigos(), mas não deu certo.
+        document.getElementById('listaAmigos').innerHTML = amigoSorteado;  
+    }
+    else {
+        alert("Por favor, insira um nome.");        
+    }     
 }
-
-
