@@ -14,6 +14,13 @@
 <p>Sorteio aleatório: Ao clicar no botão "Sortear Amigo", um nome da lista será selecionado aleatoriamente e exibido na página.</p>
 
 
+<h2>Link da Aplicação</h2>
+<p>A aplicação está disponível em: https://vanessatanaka.github.io/amigo-secreto/</p>
+
+
+<h2>Como Funciona</h2>
+<p>Veja o vídeo abaixo e saiba como a aplicação funciona. Para preencher nova lista de amigos, basta atualizar a página.</p>
+
 https://github.com/user-attachments/assets/bb8d2794-3a33-45b4-b923-7d3f6e00d15e
 
 
