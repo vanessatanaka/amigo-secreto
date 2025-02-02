@@ -11,6 +11,7 @@ function fAdicionarAmigo() {
         }
         else {
             lAmigos.push(amigo);
+            fAtualizarLAmigos();
             console.log(lAmigos);
             fLimparCampoAmigo();
             return amigo;
@@ -25,4 +26,9 @@ function fAdicionarAmigo() {
 function fLimparCampoAmigo() {
     amigo = document.querySelector('input');
     amigo.value = '';
+}
+
+
+function fAtualizarLAmigos() {
+    document.getElementById('listaAmigos').innerHTML = lAmigos.map(amigo=>`<li>${amigo}</li>`).join('');
 }
