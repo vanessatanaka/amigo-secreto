@@ -2,6 +2,7 @@
 
 let lAmigos = [];
 
+
 function fAdicionarAmigo() {
     amigo = document.querySelector('input').value;
     if(amigo != ""){
@@ -32,3 +33,14 @@ function fLimparCampoAmigo() {
 function fAtualizarLAmigos() {
     document.getElementById('listaAmigos').innerHTML = lAmigos.map(amigo=>`<li>${amigo}</li>`).join('');
 }
+
+
+function fSortearAmigo(){
+    amigoSorteado = lAmigos[Math.floor(Math.random() * lAmigos.length)];
+    console.log(amigoSorteado);
+    //Chamei a função fAtualizarLAmigos, mas não funcionou. Como fazer para exibir o resultado na tela com a função que criei?
+    //Coloquei fAtualizarLAmigos(amigoSorteado) e fAtualizarLAmigos(), mas não deu certo.
+    document.getElementById('listaAmigos').innerHTML = amigoSorteado;
+}
+
+
