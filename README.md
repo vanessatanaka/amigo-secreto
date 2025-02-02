@@ -14,6 +14,9 @@
 <p>Sorteio aleatório: Ao clicar no botão "Sortear Amigo", um nome da lista será selecionado aleatoriamente e exibido na página.</p>
 
 
+https://github.com/user-attachments/assets/bb8d2794-3a33-45b4-b923-7d3f6e00d15e
+
+
 <h2>Tecnologias</h2>
 <div>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
@@ -22,5 +25,5 @@
 </div>
 
 
-<h2>Sobre a Autora</h2>
+<h2>Autoria</h2>
 <p>Código js desenvolvido por Vanessa Tanaka.</p>
